@@ -1,0 +1,6 @@
+# Mantém LF nos arquivos de metadados/texto
+*.yml text eol=lf
+
+# Trata executáveis como binário (não mexe nos bytes)
+*.exe binary
+*.nsh text eol=lf
